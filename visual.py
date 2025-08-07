@@ -38,7 +38,7 @@ def elegir_pokemon(nombre):
     label = ctk.CTkLabel(ventana, text=(pokemon_elegido[:-4]).upper(), font=("Press Start 2P", 25))
     label.place(x=55,y=400)
     
-    label = ctk.CTkLabel(ventana, text="NIVEL: 5", font=("Press Start 2P", 22))
+    label = ctk.CTkLabel(ventana, text="NIVEL: 51", font=("Press Start 2P", 22))
     label.place(x=55,y=450)
     
     label = ctk.CTkLabel(ventana, text="ESTADISTICAS", font=("Press Start 2P", 25))
